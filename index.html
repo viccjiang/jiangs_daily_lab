@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JIANGs Daily Lab | 將是生活實驗室</title>
+    <link rel="icon shortcut" href="./img/favicon.ico">
+    <!-- Bootstrap官方網站 https://getbootstrap.com/ -->
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- 連結Bootstrap.min.css -->
+    <!-- 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./scss/bootstrap.css">
+    <!-- 使用font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- 使用Boostrap Navbar -->
+    <!-- b4-navbar-default -->
+    <!-- 設定Navbar緊貼畫面上緣 -->
+    <!-- TODO: 點擊滾動目標 -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary fixed-top">
+        <a class="navbar-brand" href="#">JIANGs Daily LAB 將是生活實驗室</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#introSection">關於JIANGs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#featuresSection">服務內容</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviewsSection">團隊成員</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallerySection">作品展示</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://viccjiang.github.io/" target="_blank">部落格</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- header -->
+    <header id="header" class="jumbotron text-center text-white bg-dark">
+        <div class="container">
+            <h1>歡迎來到 JIANGs Daily Lab</h1>
+            <br>
+            <h2>I'm a Graphic Designer and Dreamer</h2>
+            <br>
+            <p>#設計攝影 #職場工作 #投資理財 #質感手作 #品牌行銷 #職場人際 #產品設計 #進修課程</p>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- introSection -->
+    <!-- 設定introSection 上下padding為5倍 
+        pt-5 pb-5 => py-5, ml-4 mr-4 => mx-4
+    -->
+    <section id="introSection" class="py-5">
+        <!-- <h1 class="section-title text-center text-secondary mb-5">關於我</h1>-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-box">
+
+                        <h3 class="text-secondary">平面設計師的多角經營</h3>
+                        <p>Hey，我是 Vicc J <br>
+                            <br>
+                            平面設計師、皮革設計師、下班創業者，同時也是【 這些貓 Zhexie Mao
+                            】皮革設計的主理人。在這裡分享我的生活經驗，希望能幫助更多人，讓大家也能用知識與技能打造另一種收入。<br>
+                            <br>
+
+
+                            在這裡，你可以看到：<br>
+                            <br>
+                            #設計攝影 #職場工作 #投資理財 #質感手作 <br>
+                            #品牌行銷 #職場人際 #產品設計 #進修課程<br>
+                            <br>
+                            歡迎你來到 JIANGs Daily LAB</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-box">
+
+                        <div>
+                            <h3>擅長技能</h3>
+                        </div>
+
+                        <div>
+                            <h6>illustrator / photoshop</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div>
+                            <h6>premiere / after effects</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div>
+                            <h6>html / css / bootstrap</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <!-- 修正排版為三項排一排 -->
+                    <div class="row wow fadeInUp">
+                        <div class="col-md-4">
+                            <div class="intro-box">
+                                <div class="icon text-primary py-3">
+                                    <i class="far fa-heart fa-5x" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="text-secondary">自我成長</h3>
+                                <div class="intro-line bg-primary"></div>
+                                <p>在生活裡極力找尋自我價值並實現自我！</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="intro-box">
+                                <div class="icon text-primary py-3">
+                                    <i class="far fa-smile fa-5x" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="text-secondary">手作溫度</h3>
+                                <div class="intro-line bg-primary"></div>
+                                <p>皮革手作是興趣，也是技能變現的一部分！</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="intro-box">
+                                <div class="icon text-primary py-3">
+                                    <i class="fas fa-bolt fa-5x" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="text-secondary">下班創業</h3>
+                                <div class="intro-line bg-primary"></div>
+                                <p>用下班黃金四小時，讓上班技能也持續變現！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 設定此區塊距離上方5倍margin -->
+                    <!-- 修正排版在md時六個排一排 sm三個排一排 sm以下兩個排一排-->
+                    <div class="row wow bounceInRight mt-5">
+                        <div class="col-md-2 col-sm-4 col-6 text-center">
+                            <i class="fas fa-pencil-alt fa-2x text-secondary" aria-hidden="true"></i>
+                            <h5 class="mt-3 text-secondary">平面設計</h5>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center">
+                            <i class="fas fa-camera-retro fa-2x text-secondary" aria-hidden="true"></i>
+                            <h5 class="mt-3 text-secondary">攝影作品</h5>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center">
+                            <i class="fas fa-video fa-2x text-secondary" aria-hidden="true"></i>
+                            <h5 class="mt-3 text-secondary">影片剪輯</h5>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center">
+                            <i class="fas fa-hand-holding-heart fa-2x text-secondary" aria-hidden="true"></i>
+                            <h5 class="mt-3 text-secondary">創意皮件</h5>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center">
+                            <i class="fas fa-chart-line fa-2x text-secondary" aria-hidden="true"></i>
+                            <h5 class="mt-3 text-secondary">品牌行銷</h5>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-6 text-center">
+                            <i class="fas fa-graduation-cap fa-2x text-secondary" aria-hidden="true"></i>
+                            <h5 class="mt-3 text-secondary">進修課程</h5>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- introSection end -->
+    <!-- featuresSection -->
+    <section id="featuresSection" class="py-5 bg-secondary text-white">
+        <div class="container">
+            <!--<h1 class="section-title mb-5 text-center">Features</h1>
+            <!-- 設定row內的區塊置中對齊 
+                justify-content-end 區塊靠右
+            -->
+            <!--<div class="row justify-content-center">
+                <div class="col-sm-10 col-md-8">
+                    <!-- 為article1 article2 設置collapse互動方式 -->
+            <!--<button data-toggle="collapse" data-target="#article1" class="btn btn-primary">Team</button>
+                    <button data-toggle="collapse" data-target="#article2" class="btn btn-primary">Location</button>
+                    <article class="collapse my-3 show" id="article1">
+                        <h3>Team</h3>
+                        <p>Our team members started with only 10 people. We're Website developer, Security engineer,
+                            Graphic
+                            Designer, Information Architect , But before the company scaled up, we're all wears more
+                            than
+                            one hat. We provide different kinds of
+                            <strong>Project management, Security and Data Storage solution package</strong> for our
+                            customers </p>
+                    </article>
+                    <article class="collapse my-3" id="article2">
+                        <h3>Location</h3>
+                        <p>We're based in Taipei Taiwan. There are several international branch offices in Hong Kong,
+                            New York,
+                            Albuquerque, Dublin and GuangDong. You could contact the nearest office for you, or if
+                            you're
+                            interested to work with us. please follow our recruit news</p>
+                    </article>-->
+            <!-- 導覽按鈕 .nav>a.nav-link -->
+            <nav class="nav nav-pills">
+                <a data-toggle="tab" class="nav-link active" href="#article3">【平面設計應用】</a>
+                <a data-toggle="tab" class="nav-link" href="#article4">【行銷文案應用】</a>
+                <a data-toggle="tab" class="nav-link" href="#article5">【攝影剪輯應用】</a>
+                <a data-toggle="tab" class="nav-link" href="#article6">【網頁設計應用】</a>
+            </nav>
+            <!-- 為article3 article4 設置tab互動方式 
+                            .tab-content > .tab-pane(每個要切換的內容)
+                    -->
+            <div class="tab-content">
+                <article id="article3" class="tab-pane my-3 active">
+                    <h3></h3>
+                    <p>熟稔 Adobe illustrator、Photoshop、 XD
+                        的功能操作，並有交互搭配運用的能力、製作過平面設計相關作品如：Logo、名片、三折頁、酷卡、門市展架、包裝、電商Banner等。
+
+
+                    </p>
+                </article>
+                <article id="article4" class="tab-pane my-3">
+                    <h3></h3>
+                    <p>
+                        活動企劃的撰寫與執行，從企劃撰寫、行銷構想，到企劃執行全力以赴。並利用社群媒體，達到預期之宣傳效果，以 Facebook及Instagram
+                        操作。負責公司商品文案發想及撰寫、寢具每季文字編撰及校閱。從無到有，推出新的產品行銷文案。並在每月電商平台，配合活動執行企劃、文字編輯、排版及上架。
+                    </p>
+                </article>
+                <article id="article5" class="tab-pane my-3">
+                    <h3></h3>
+                    <p>在攝影及影像有一定基礎，文案、腳本發想，影像拍攝與剪輯、影像處理與後製。能運用 Adobe Premiere pro、Final Cut Pro 進行剪輯，並能搭配 After Effects
+                        製作簡易小動畫。
+                    </p>
+                </article>
+                <article id="article6" class="tab-pane my-3">
+                    <h3></h3>
+                    <p>能運用 Dreamweaver 排版網頁，對於HTML、CSS有基礎概念，能與前端設計有效溝通，能製作靜態網頁。
+                    </p>
+                </article>
+            </div>
+            <!-- 崁入一個youtube影片 https://www.youtube.com/watch?v=gwDoRPcPxtc -->
+            <!--<iframe width="100%" height="450" src="https://www.youtube.com/embed/W3cyANBGhoM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>-->
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- featuresSection end -->
+    <!-- 圖片輪播 carousel -->
+    <!-- b4-元件名稱-default -->
+    <!--<div id="imageCarousel" class="carousel slide" data-interval="6000" data-ride="carousel">
+        <!-- 頁碼 -->
+    <!--<ol class="carousel-indicators">
+            <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#imageCarousel" data-slide-to="1"></li>
+            <li data-target="#imageCarousel" data-slide-to="2"></li>
+            <li data-target="#imageCarousel" data-slide-to="3"></li>
+            <li data-target="#imageCarousel" data-slide-to="4"></li>
+        </ol>
+        <!-- 頁面容器 -->
+    <!--<div class="carousel-inner" role="listbox">
+            <!-- page1 -->
+    <!--<div class="carousel-item active">
+                <img src="https://picsum.photos/id/1040/1200/300" class="w-100">
+            </div>
+            <!-- page2 -->
+    <!--<div class="carousel-item">
+                <img src="https://picsum.photos/id/1041/1200/300" class="w-100">
+            </div>
+            <!-- page3 -->
+    <!--<div class="carousel-item">
+                <img src="https://picsum.photos/id/1042/1200/300" class="w-100">
+            </div>
+            <!-- page4 -->
+    <!--<div class="carousel-item">
+                <img src="https://picsum.photos/id/1043/1200/300" class="w-100">
+            </div>
+            <!-- page5 -->
+    <!--<div class="carousel-item">
+                <img src="https://picsum.photos/id/1044/1200/300" class="w-100">
+            </div>
+        </div>
+        <!-- 上一頁 -->
+    <!--<a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- 下一頁 -->
+    <!--<a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- 圖片輪播 end -->
+    <!-- reviewsSection -->
+    <section id="reviewsSection" class="py-5">
+        <!-- TODO: 使用輪播(Carousel)元件放入以下兩頁內容 -->
+        <!-- 內容輪播 -->
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <!-- 第一頁 內容 -->
+                    <div class="row justify-content-center py-5">
+                        <div class="col-sm-2">
+                            <!-- 設定使用者照片變圓型 -->
+                            <img class="w-100 rounded-circle" src="./img/reviewer-1.jpg" alt="user photo">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="title">Ｗen Qing,Jiang</h3>
+                            <h4 class="name">平面設計師</h4>
+                            <p>對生活充滿好奇心，喜歡觀察生活的小細節，從中汲取設計靈感，樂於嘗試不同可能，挖掘自己的可能性。人格特質是具有責任感，隨時把自己調整好狀態，迎接任何挑戰。
+
+                                曾經擔任平面設計師、包裝助理工程師、旅遊美編設計師、專案管理師，希望以相關領域的經歷與熱忱，以設計的方式，傳遞品牌獨特的溫度。</p>
+                        </div>
+                    </div>
+                    <!-- 第一頁 內容 結束 -->
+                </div>
+                <div class="carousel-item">
+                    <!-- 第二頁 內容 -->
+                    <div class="row justify-content-center py-5">
+                        <div class="col-sm-2">
+                            <!-- 設定使用者照片變圓型 -->
+                            <img class="w-100 rounded-circle" src="./img/reviewer-2.jpg" alt="user photo">
+                        </div>
+                        <div class="col-sm-6">
+                            <h3 class="title">Ｗen Qing,Jiang</h3>
+                            <h4 class="name">平面設計師</h4>
+                            <p>在工作之餘，我認為人要認真地過生活，個人興趣是製作手作溫度的產品，每週休二日會自行安排皮革手作，享受創作的過程，到成品完成的成就。喜歡踏出戶外拍攝，這是一件很舒服的事，能夠讓人構思，自己想要述說影像的方式，不僅是表達，更是一種抒發情緒的管道。生活不僅需要工作帶來的成就感，生活更需要熱情活力和健康的身體，這些經驗汲取能讓生活更加美好。
+
+                                設計對我來說是不斷地探索與定義，將抽象轉化為具體，塑造出整體的形象，來傳達產品本身的意義與價值。
+
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 第二頁 內容 結束 -->
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- 內容輪播 end -->
+    </section>
+    <!-- reviewsSection end -->
+    <!-- modalSection -->
+    <section id="modalSection" class="bg-primary py-5">
+        <div class="row justify-content-center my-5">
+            <div class="col-md-3">
+                <h4 class="text-center text-secondary mb-4">我的寫作部落格</h4>
+                <!-- 設定點擊按鈕後顯示彈出式視窗 -->
+                <button data-toggle="modal" data-target="#detailModal"
+                    class="btn btn-lg btn-block btn-secondary">來去看看</button>
+            </div>
+        </div>
+    </section>
+    <!-- 加入彈出式視窗 Modal -->
+    <!-- 產生Modal的快捷鍵 b4-modal-default -->
+    <!-- Modal -->
+    <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">JIANGs Daily LAB 寫作部落格</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    皮革手作‧設計生活‧貓奴必備‧推薦好書
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">關閉</button>
+                    <a href="https://viccjiang.github.io/" target="_blank" class="btn btn-secondary">來去看看</a>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modalSection end -->
+    <!-- gallerySection -->
+    <section id="gallerySection">
+        <!--<div class="container-fluid">
+            <div class="row">
+                <div id="galleryImage1" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo1</div>
+                </div>
+                <div id="galleryImage2" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo2</div>
+                </div>
+                <div id="galleryImage3" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo3</div>
+                </div>
+                <div id="galleryImage4" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo4</div>
+                </div>
+                <div id="galleryImage5" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo5</div>
+                </div>
+                <div id="galleryImage6" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo6</div>
+                </div>
+                <div id="galleryImage7" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo7</div>
+                </div>
+                <div id="galleryImage8" class="col-md-3 col-sm-6">
+                    <div class="gallery-text">Photo8</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallerySection end -->
+
+        <!-- footer -->
+        <footer id="footer" class="pt-5 bg-secondary text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 footer-list">
+                        <h4>Contact Us</h4>
+                        <a href="mailto:viccjiang@gmail.com">viccjiang@gmail.com</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-list">
+                        <h5 class="text-uppercase">作品集</h5>
+                        <ul>
+                            <li>
+                                <a href="#">平面設計</a>
+                            </li>
+                            <li>
+                                <a href="#">攝影作品</a>
+                            </li>
+                            <li>
+                                <a href="#">質感手作</a>
+                            </li>
+                            <li>
+                                <a href="#">影片剪輯</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-list">
+                        <h5 class="text-uppercase">文章分類</h5>
+                        <ul>
+                            <li>
+                                <a href="https://viccjiang.github.io/" target="blank">工作日常</a>
+                            </li>
+                            <li>
+                                <a href="https://viccjiang.github.io/" target="blank">自我成長</a>
+                            </li>
+                            <li>
+                                <a href="https://viccjiang.github.io/" target="blank">風格手作</a>
+                            </li>
+                            <li>
+                                <a href="https://viccjiang.github.io/" target="blank">推薦好物</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-list">
+                        <h5 class="text-uppercase">社群媒體</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#">Youtube</a>
+                            </li>
+                            <li>
+                                <a href="#">Pinkoi</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-end bg-dark mt-5 py-2">
+                <p id="copy-right" class="text-center">Copy right &copy; Vicc Jiang 2020
+                    <span data-toggle="tooltip" data-placement="top"
+                        title="Buy me a drink, Let's make some business">🍺</span>
+                </p>
+            </div>
+        </footer>
+        <!-- footer end -->
+        <!-- ad-box -->
+        <div class="ad-box">
+            <div class="left-part">
+                <button class="ad-toggle-btn">
+                    <i class="fas fa-sort"></i>
+                </button>
+            </div>
+            <div class="right-part">
+                <img class="w-100" src="./img/header-image.jpg">
+
+                <p>【 這些貓 Zhexie Mao 】皮革手作</p>
+                <br>
+                <a href="https://www.pinkoi.com/store/zhexiemao" target="_blank" class="btn btn-secondary">來去看看</a>
+
+            </div>
+
+        </div>
+        <!-- ad-box end -->
+        <!-- 設定置底返回按鈕 返回按鈕滾動動畫 -->
+        <button href="#header" id="goBackBtn">
+            <i class=" fas fa-chevron-up"></i>
+        </button>
+
+        <!-- jquery.min.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- popper.min.js -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <!-- bootstrap.min.js -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <!-- wow.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <!-- 連結網頁主程式 -->
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
